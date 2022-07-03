@@ -1,0 +1,43 @@
+.title{
+    font-family: 'Water Brush', cursive;
+}
+.t{
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+footer{
+    background-color: antiquewhite;
+}
+nav{
+    background-color: darkgrey;
+    color:white;
+}
+nav ul{
+    display:flex;
+    margin:0;
+    padding:0;
+}
+nav ul li{
+    padding:20px;
+    list-style: none;
+}
+.g{
+    display:grid;
+    grid-template-columns: 1fr 1fr;;
+}
+.grid-item{
+    
+}
+.center{
+    text-align: center;
+}
+@media (max-width: 768px) {
+    main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .sub-.g {
+      display: block;
+    }
+  }
+  
